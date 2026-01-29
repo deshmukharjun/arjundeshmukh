@@ -82,9 +82,9 @@ export default function Work() {
   const devicePreview = (
     <div ref={deviceWrapRef} key={activeId}>
       {activeItem.device === 'phone' ? (
-        <DevicePhone />
+        <DevicePhone video={activeItem.video} />
       ) : (
-        <DeviceLaptop />
+        <DeviceLaptop video={activeItem.video} />
       )}
     </div>
   )
@@ -92,9 +92,9 @@ export default function Work() {
   const devicePreviewContent = (
     <div key={activeId}>
       {activeItem.device === 'phone' ? (
-        <DevicePhone />
+        <DevicePhone video={activeItem.video} />
       ) : (
-        <DeviceLaptop />
+        <DeviceLaptop video={activeItem.video} />
       )}
     </div>
   )

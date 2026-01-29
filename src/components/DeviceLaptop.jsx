@@ -1,5 +1,5 @@
-/** Dummy rounded-corner laptop frame — placeholder for future recording */
-export default function DeviceLaptop({ className = '' }) {
+/** Rounded-corner laptop frame — shows video when provided */
+export default function DeviceLaptop({ className = '', video }) {
   return (
     <div className={`relative flex flex-col items-center ${className}`}>
       {/* Screen — larger for better visibility */}
@@ -13,12 +13,23 @@ export default function DeviceLaptop({ className = '' }) {
         }}
       >
         <div
-          className="w-[calc(100%-12px)] h-[calc(100%-12px)] rounded-t-[10px] bg-surface-800/80 flex items-center justify-center"
+          className="w-[calc(100%-12px)] h-[calc(100%-12px)] rounded-t-[10px] bg-surface-800/80 flex items-center justify-center overflow-hidden"
           style={{ marginTop: 6 }}
         >
-          <div className="text-surface-500 text-sm text-center px-4">
-            Recording placeholder
-          </div>
+          {video ? (
+            <video
+              src={video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover object-top"
+            />
+          ) : (
+            <div className="text-surface-500 text-sm text-center px-4">
+              Recording placeholder
+            </div>
+          )}
         </div>
         {/* Webcam */}
         <div className="absolute top-2 left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-surface-700" />

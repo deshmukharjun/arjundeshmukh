@@ -79,10 +79,13 @@ export const bentoContact = {
 export const workItems = [
   { id: 1, title: 'Vibha Realties', year: '2026', device: 'laptop' },
   { id: 2, title: 'Vibha Mobile App', year: '2026', device: 'phone' },
-  { id: 3, title: 'Swipeflix', year: '2025', device: 'phone' },
-  { id: 4, title: 'Valorant Landing Page', year: '2024', device: 'Laptop' },
-  { id: 5, title: 'Iphone 15 Webpage', year: '2024', device: 'laptop' },
-  { id: 6, title: 'Manache 5 App', year: '2023', device: 'phone' },
+  { id: 3, title: 'Swipeflix', year: '2025', device: 'phone', video: '/swipeflix_demo.webm' },
+  { id: 4, title: 'Valorant Landing Page', year: '2024', device: 'laptop', video: '/project2.webm' },
+  { id: 5, title: 'Iphone 15 Webpage', year: '2024', device: 'laptop', video: '/project1.webm' },
+  { id: 6, title: 'Manache 5 App', year: '2023', device: 'phone', video: '/manache_demo.webm' },
+  { id: 7, title: 'Frick Incognito', year: '2023', device: 'laptop', video: '/project4.webm' },
+  { id: 8, title: 'TicTacTwo App', year: '2023', device: 'phone', video: '/ttt_demo.webm' },
+  { id: 9, title: 'Movies Web App', year: '2024', device: 'laptop', video: '/project3.webm' },
 ]
 
 export const projects = [
