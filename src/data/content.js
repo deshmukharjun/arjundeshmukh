@@ -5,7 +5,7 @@ export const profile = {
   bio: 'I craft clean, performant interfaces with React and modern web technologies. Focused on user experience and pixel-perfect design.',
   email: 'arjundeshmukh26@gmail.com',
   location: 'Pune, Maharashtra',
-  resumeUrl: '#',
+  resumeUrl: '/resume2026.pdf',
   experienceYears: 2,
   specializations: 'Web Development and Android Development',
   bioShort: 'With 2 years of experience, I have honed my skills in Web Development and Android Development, creating dynamic and responsive websites and apps.',

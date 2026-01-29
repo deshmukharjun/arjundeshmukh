@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import gsap from 'gsap'
+import { profile } from '../data/content'
 
 const DEVANAGARI_NAME = 'अर्जुन देशमुख'
 const ENGLISH_NAME = 'Arjun Deshmukh'
@@ -81,6 +82,14 @@ export default function Navbar() {
           </span>
         </a>
         <div className="flex items-center gap-4 sm:gap-6 text-surface-500 text-sm tabular-nums">
+          <a
+            href={profile.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-surface-400 hover:text-white transition-colors font-medium"
+          >
+            Resume
+          </a>
           <span>{LOCATION}</span>
           <span>{time}</span>
         </div>
