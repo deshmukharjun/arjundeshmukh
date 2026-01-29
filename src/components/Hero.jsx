@@ -171,10 +171,12 @@ export default function Hero() {
           View work
         </a>
         <a
-          href="#contact"
+          href={profile.resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center px-6 py-3 rounded-full border border-surface-600 text-surface-300 font-medium text-sm hover:border-surface-400 hover:text-white transition-colors"
         >
-          Get in touch
+          Resume
         </a>
       </div>
     </section>

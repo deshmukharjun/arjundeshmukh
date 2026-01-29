@@ -22,7 +22,7 @@ export const profile = {
 /** Hero: audience tabs and copy that changes by viewer (Billy Sweeney style) */
 export const heroAudiences = [
   { id: 'anyone', label: 'For anyone', copy: "Hello there, I'm a developer who cares about making useful things that look good and work well." },
-  { id: 'recruiter', label: 'For IT Recruiter', copy: "I'm a Fullstack Web & Android developer with 3 years of experience. Open to roles in Pune and remote." },
+  { id: 'recruiter', label: 'For Recruiters', copy: "I'm a Fullstack Web & Android developer with 3 years of experience. Open to roles in Pune and remote." },
   {
     id: 'video',
     label: 'For Video Editors',
