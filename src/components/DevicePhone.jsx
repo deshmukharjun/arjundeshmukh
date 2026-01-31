@@ -25,7 +25,7 @@ export default function DevicePhone({ className = '', video }) {
           />
         ) : (
           <div className="text-surface-500 text-sm text-center px-4">
-            Recording placeholder
+            Work in progress!
           </div>
         )}
       </div>
